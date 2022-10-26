@@ -13,6 +13,7 @@ namespace EmployeeWageProblem
             employeeWage.Attendence();
             employeeWage.EmpWage();
             employeeWage.PartTime();
+            employeeWage.switchCase();
         }
     }
 }
