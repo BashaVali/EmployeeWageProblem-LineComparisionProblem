@@ -15,6 +15,7 @@ namespace EmployeeWageProblem
             employeeWage.PartTime();
             employeeWage.switchCase();
             employeeWage.MonthlyWage();
+            employeeWage.TotalMonthlyWages();
         }
     }
 }
