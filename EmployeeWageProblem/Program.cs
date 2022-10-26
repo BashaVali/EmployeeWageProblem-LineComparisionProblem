@@ -11,6 +11,7 @@ namespace EmployeeWageProblem
 
             EmployeeWage employeeWage = new EmployeeWage();
             employeeWage.Attendence();
+            employeeWage.EmpWage();
         }
     }
 }

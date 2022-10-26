@@ -14,7 +14,7 @@ namespace EmployeeWageProblem
         public void Attendence()
         {
             int empCheck = random.Next(0, 2);
-            if (empCheck == IS_PRESENT)
+            if (empCheck == 0 )
                 Console.WriteLine("Employee is Present");
             else
                 Console.WriteLine("Employee is Absent");
@@ -28,7 +28,7 @@ namespace EmployeeWageProblem
             else
                 empHrs = 0;
             dailyEmpWage = WAGE_PER_HR * empHrs;
-            Console.WriteLine("Daily Emp Wage Full Day" + dailyEmpWage);
+            Console.WriteLine("Daily Emp Wage Full Day :" + dailyEmpWage);
      
 
         }
