@@ -14,7 +14,7 @@ namespace EmployeeWageProblem
         public void Attendence()
         {
             int empCheck = random.Next(0, 2);
-            if (empCheck == 0 )
+            if (empCheck == 0)
                 Console.WriteLine("Employee is Present");
             else
                 Console.WriteLine("Employee is Absent");
@@ -66,7 +66,7 @@ namespace EmployeeWageProblem
         {
             int FullWage = 0, HalfWage = 0;
             int check = random.Next(0, 2);
-            if (check == IS_PRESENT )
+            if (check == IS_PRESENT)
             {
                 FullWage = MONTH_WORK_DAY * WAGE_PER_HR * FULL_DAY_HR;
                 HalfWage = MONTH_WORK_DAY * WAGE_PER_HR * HALF_DAY_HR;
